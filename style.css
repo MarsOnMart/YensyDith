@@ -1,0 +1,98 @@
+*{
+    font-family: "Dancing Script";
+    z-index: 2  ;
+}
+html,body{
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+}
+.c-header{
+   text-align: center;
+   position: sticky;
+   top: 0%;
+   z-index: 1;
+}
+.img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+.header{
+    background-color: #fff;
+    position: sticky;
+    top :0;
+    height: 90px;
+    z-index: 1;
+    margin-bottom: 0%;
+    text-align: center;
+    /*clip-path: polygon(100% 0, 100% 30%, 50% 50%, 0 30%, 0 0)*/
+}
+.header h1{
+    font: bolder;
+    font-size: 5rem;
+    font-size: 450% ;
+    margin: 0%;
+    
+    display: inline-block;
+}
+.header a{
+   
+}
+.header i{      
+    font-size: 4.6rem;
+    font-size: 480%;
+    margin-right: 2%;
+    margin-bottom: 0%;
+   
+    color: rgb(43, 142, 255);
+}
+.header a:visited{
+    
+    color: rgb(43, 142, 255);
+}
+.trabajo{
+    margin: 5% auto;
+    padding: 2%;
+    text-align: center;
+    width: 70%;
+    z-index: 2;
+   
+    background-image: linear-gradient(to top right,rgba(128, 128, 128, 0.24),rgba(255, 255, 255, 0.438),rgba(255, 255, 255, 0.801));
+}
+.trabajo-p{
+    font-size: 2.5rem;
+}
+.body{
+    margin: auto;
+    max-width: 1100px;
+   
+}
+.info-personal{
+    text-align: center;
+    margin: auto auto;
+    margin-top: 30%; ;
+   background-color: rgba(255, 0, 0, 0); 
+}
+.info-personal-p{
+    margin: auto auto;
+    display: block;
+    font-weight: 900;
+    font-size: 3rem;
+    max-width: 700px;
+}
+
+
+.c-insta{
+    z-index: 2;
+    margin-top: 6%;
+}
+
+.profile{
+    margin-top: 5%;
+    width: 320px;
+    border-radius: 50%;
+    z-index: 2 !important;
+}
