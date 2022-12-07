@@ -96,3 +96,13 @@ html,body{
     border-radius: 50%;
     z-index: 2 !important;
 }
+
+.wp{
+    width: 100px;   
+    z-index: 3;
+    border-radius: 50%;
+    border: rgba(182, 182, 182, 0.452) solid 5px;
+    right: 10px;
+    bottom: 30px;
+    position: fixed;
+}
